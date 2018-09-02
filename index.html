@@ -3,6 +3,7 @@
         <title>Engage Business 2 – Just another Engage Theme Demos site</title>
         <link rel="stylesheet" href="index.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!--        <link rel="stylesheet" href="css/bootstrap.min.css"/>-->
     </head>
     <body>
         <div class="HomePage">
@@ -105,5 +106,33 @@
                 </div>
             </div>
         </div>
+        <br/><br/>
+         <h1 class="text-center text-primary my-3">My phone Book   <button class="text-center btn btn-primary my-5" onclick="ShowOrHide()">Show</button></h1> 
+        <div id="showorhide" class="container py-3 text-center">
+            <input class="form-control my-3" placeholder="name">
+            <input class="form-control my-3" placeholder="phone">
+            <input class="form-control my-3" placeholder="Address">
+            <button class="btn btn-primary my-3" id="add">Add</button>
+        </div>
+        <div class="Container">
+            <table class="table">
+                <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Address</th>
+    </tr>
+  </thead>
+  <tbody id="TabData">
+   
+  </tbody>
+            </table>
+        </div>
+        <br/><br/><br/><br/><br/><br/>
+
+         <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+<!--        <script src="js/bootstrap.min.js"></script>-->
+        <script src="mine.js"></script>
     </body>
 </html>
